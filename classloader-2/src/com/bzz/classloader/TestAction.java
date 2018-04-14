@@ -1,6 +1,6 @@
-package uRLClassLoaderTest;
+package com.bzz.classloader;
 
-import uRLClassLoaderTest.ActionInterface;
+import com.bzz.classloader.ActionInterface;
 
 public class TestAction implements ActionInterface {
 

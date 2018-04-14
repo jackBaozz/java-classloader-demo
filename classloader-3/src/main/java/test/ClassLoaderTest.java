@@ -6,8 +6,8 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 import com.alibaba.fastjson.JSONObject;
+import com.bzz.classloader.ActionInterface;
 
-import uRLClassLoaderTest.ActionInterface;
 
 public class ClassLoaderTest {
 
@@ -53,7 +53,7 @@ public class ClassLoaderTest {
 				//URL url2 = new URL("file:C:/Users/Administrator/Documents/test.jar");
 				URLClassLoader myClassLoader1 = new URLClassLoader(new URL[] { url1 },
 						Thread.currentThread().getContextClassLoader());
-				Class myClass1 = myClassLoader1.loadClass("uRLClassLoaderTest.TestAction");
+				Class myClass1 = myClassLoader1.loadClass("com.bzz.classloader.TestAction");
 				ActionInterface action1 = (ActionInterface) myClass1.newInstance();
 				String str1 = action1.action();
 				System.out.println(str1);
