@@ -4,10 +4,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bzz.demo</groupId>
-  <artifactId>classloader3-demo</artifactId>
+  <artifactId>classloader-3</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <name>classloader3-demo</name>
+  <name>classloader-3</name>
 
 
   <properties>
